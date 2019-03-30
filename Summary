@@ -1,0 +1,20 @@
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+BASIC SINGLE CLIENT SINGLE SERVER SENDING A SINGLE MESSAGE IMPLEMENTATIOn
+
+ONLY USES 'client' and 'server' 
+
+Simple Client-Server interaction whereby, a Client sends a message to a server, if it's "hello server", gets and prints 
+"hello client" in resposne
+
+HOW IT WORKS: 
+
+I: Run the server first, providing the port number for the client to actually connect to
+
+1. Server is initialized to a certain port number, initializing a server socket
+2. Server than block waits to accept a single client connection, assigns this connecting client a client socket  
+3. Before the server continues with it's post-connection logic, the client establishes its in/outs and sends a message to server 
+4. Client sends message, server repsponds to it and client prints the response 
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
